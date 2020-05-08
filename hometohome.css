@@ -1,19 +1,16 @@
 * { box-sizing: border-box; }
-header, nav, main, footer { display: block; }
+header, nav, main, footer {display: block;}
 body { background-color: #FCEBB6;
-      background-image: url(background.gif);
+      margin: 0;
       color: #221811;
       font-family: Verdana, Arial, sans-serif;
-	  background-image: url(background.gif);
 }
 #wrapper {
           background-color: #231814;
-           width: 80%;
-           margin-right: auto;
-		   margin-left: auto;
-           min-width: 900px;
-		   max-width: 1280px;
-		   box-shadow: 3px 3px 3px #666666;
+          margin-right: auto;
+      margin-left: auto;
+           min-width: 100%;
+           min-height: 100%;
 }
 header { background-color: #D2B48C;
         height: 300px;
